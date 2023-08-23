@@ -1,0 +1,21 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class audiomanage : MonoBehaviour
+{
+    public AudioSource bgmAudioSource;
+    private void Start()
+	{
+		PlayBGM();
+	}
+	
+	public void PlayBGM() 
+    {
+        bgmAudioSource.Play();
+    }
+	public void PlaySFX() 
+    {
+
+    }
+}
